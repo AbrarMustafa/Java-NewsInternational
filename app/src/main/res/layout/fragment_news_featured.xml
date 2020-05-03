@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/linear_parent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.daimajia.swipe.SwipeLayout
+        android:id="@+id/swipeRevealLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        app:dragFromEdge="right">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:layout_gravity="center"
+                android:id="@+id/imageView_favoption"
+                android:layout_width="@dimen/general_ninty"
+                android:layout_height="@dimen/general_ninty"
+                android:clickable="true"
+                android:focusable="true"
+                android:filterTouchesWhenObscured="true"
+                android:padding="@dimen/general_twenty"
+                android:src="@drawable/saved" />
+
+        </FrameLayout>
+
+        <RelativeLayout
+            android:id="@+id/relative_items"
+            android:focusable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:clickable="true">
+            <LinearLayout
+                android:focusable="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ProgressBar
+                        android:id="@+id/progressloading"
+                        style="@style/Widget.AppCompat.ProgressBar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|end" />
+
+                    <ImageView
+                        android:id="@+id/newsThumbnailImageView"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/thumbnail" />
+                </FrameLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/newsTitleTextView"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_toRightOf="@id/newsThumbnailImageView"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:text="Back to beige: decoding this \nseason’s most unlikely, of the "
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/newsDetailTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/newsTitleTextView"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@id/newsThumbnailImageView"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:text="As far as trends go, you’d be forgiven \nfor assuming that beige equals boring. "
+                    android:textColor="@color/featuredNewsContentColor" />
+
+                <TextView
+                    android:id="@+id/text_newsauthor"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_toRightOf="@id/newsThumbnailImageView"
+                    android:maxLines="1"
+                    android:text="1 hrs ago to the left of another big trouble"
+                    android:textColor="#8E909A"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="3dp"
+                    android:text="Read More >"
+                    android:textColor="#019AE8"
+                    android:textSize="11sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </RelativeLayout>
+    </com.daimajia.swipe.SwipeLayout>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/appcolor"/>
+</LinearLayout>

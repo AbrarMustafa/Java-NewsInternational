@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "541770577511",
+    "firebase_url": "https://newsinternational-fdb56.firebaseio.com",
+    "project_id": "newsinternational-fdb56",
+    "storage_bucket": "newsinternational-fdb56.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:541770577511:android:85c0e5ee34986eaf8c86c2",
+        "android_client_info": {
+          "package_name": "news.international"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "541770577511-gf5e98rlkqjdfaq2t407b894qct9ivmu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3go8lB1zPeJGICUfZkORrf2Ozj2V3wgo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "541770577511-gf5e98rlkqjdfaq2t407b894qct9ivmu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

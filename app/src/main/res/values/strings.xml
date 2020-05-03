@@ -1,0 +1,15 @@
+<resources>
+    <string name="ad_attribution">Ad</string>
+    <string name="app_name">News International</string>
+    <string name="base64EncodedPublicKey">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgxmu5Itt5I4bbviUdba3Jp8RSO2EjgNi9f5xzBQslgVu2kKJc2w3SgEWkQvXLZTlWer7161cOFBonZI+po2BgeQrqqQsElr3XYx1yR04OSGgXaKtYY1yI8Oeev9yXl3pPSJITWGTLLDfTc3KcByTicmVLhOjKcakzIjPsCEFfoAGB2owBkknzpzEvvZiVXH8RomHIiVb0CqrU2FHcinYtjE+omYtoBHAarD8V6xbN90fcCk6PGClPtvTNsaCWPxCBOWdqoyJd1KdW4TZzfHNRHIeui/dDy3up9qS0ywMI6zEXKpJJYZy9HfObh9mL4oALo+rLHj/EKpGIJDb6X7uewIDAQAB</string>
+
+
+    <!-- Strings related to ids -->
+    <string name="admob_app_id">ca-app-pub-9544116815593433~4825082277</string>
+    <string name="facebook_app_id">227053451741918</string>
+    <string name="fb_login_protocol_scheme">fb227053451741918</string>
+
+    <string name="interneterror">Some thing went wrong ,check you internet connection</string>
+    <string name="nosavedvideo">No saved news found \nMake sure you logged In and check your internet connections</string>
+
+</resources>
